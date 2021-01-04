@@ -81,7 +81,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                test
                                 </div>
                             </div>
                         </div>
@@ -130,3 +130,7 @@
         </div>
     </body>
 </html>
+Route::get('hello',function (){
+    return '<html><body><h1>Hello</h1><p>this is sample page.
+        </p></body></html>';
+})
